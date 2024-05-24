@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="RENKLERİ ÖĞRENİYORUM"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/sari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="SARI"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/mavi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="MAVİ"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/kirmizi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="KIRMIZI"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/yesil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="YEŞİL"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/turuncu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="TURUNCU"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/mor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="MOR"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/siyah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="SİYAH"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/beyaz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="BEYAZ"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/pembe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="PEMBE"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/gri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="GRİ"
+                android:textColor="@color/black"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/uygula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100px"
+                android:background="@drawable/buttonshape"
+                android:fontFamily="sans-serif-black"
+                android:text="UYGULA"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+        </RadioGroup>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
